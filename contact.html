@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | P.C Harshakumar & Co</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    Additional styles for contact page
+    .contact-info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .contact-info-card {
+      background: white;
+      border-radius: 20px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      border: 1px solid #f1f5f9;
+    }
+    
+    .contact-info-card i {
+      font-size: 2.5rem;
+      color: #fbbf24;
+      margin-bottom: 1rem;
+    }
+    
+    .contact-info-card h3 {
+      color: #0f2a44;
+      margin-bottom: 0.5rem;
+    }
+    
+    .contact-info-card p {
+      color: #475569;
+      margin: 0;
+    }
+    
+    .contact-person {
+      background: #0f2a44;
+      color: white;
+      padding: 2rem;
+      border-radius: 20px;
+      margin-top: 2rem;
+    }
+    
+    .contact-person h3 {
+      color: #fbbf24;
+      margin-bottom: 1rem;
+    }
+    
+    .contact-person p {
+      color: rgba(255,255,255,0.9);
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <i class="fas fa-calculator"></i> P.C Harshakumar & Co.
+  </div>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <ul class="nav-links">
+    <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+    <li><a href="service.html"><i class="fas fa-briefcase"></i> Services</a></li>
+    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+  </ul>
+</nav>
+
+<!-- COMPANY PHOTO - FULL WIDTH -->
+<div class="company-photo-section">
+    <img src="office.jpg" alt="P.C Harshakumar & Co. Office" class="company-photo">
+</div>
+
+<section class="page-banner" style="background: linear-gradient(135deg,#1b3b4f,#2c5a73);">
+  <h1>Contact Us</h1>
+</section>
+
+<section class="content">
+  <div class="contact-card">
+    <h2 style="margin-top:0; display:flex; gap:10px;"><i class="fas fa-address-card" style="color:#fbbf24;"></i> P.C Harshakumar & Co.</h2>
+    
+    <p><i class="fas fa-map-pin"></i> <strong>Address:</strong> P.C HARSHAKUMAR & Co., Velorvattom, Cherthala, Alappuzha, Kerala</p>
+    <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> <a href="tel:9539447466">9539447466</a></p>
+    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:pcharshan@gmail.com">pcharshan@gmail.com</a></p>
+    <p><i class="fas fa-user"></i> <strong>Contact Person:</strong> P.C Harshakumar</p>
+    <p><i class="fas fa-calendar-alt"></i> <strong>Established:</strong> 2013</p>
+    <p><i class="fas fa-clock"></i> <strong>Business Hours:</strong> Mon-Sat 9AM - 6PM</p>
+    
+    <hr>
+    
+    <div style="text-align:center;">
+      <h3 style="color:#0f2a44; margin-bottom:1rem;">Get in Touch</h3>
+      <p style="margin-bottom:1.5rem;">For any inquiries or to schedule a consultation, please contact us:</p>
+      <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;">
+        <a href="tel:9539447466" style="background:#fbbf24; color:#0f2a44; padding:10px 25px; border-radius:30px; text-decoration:none; font-weight:600;"><i class="fas fa-phone-alt"></i> Call Now</a>
+        <a href="mailto:pcharshan@gmail.com" style="background:#0f2a44; color:white; padding:10px 25px; border-radius:30px; text-decoration:none; font-weight:600;"><i class="fas fa-envelope"></i> Email Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Person Section -->
+  <div class="contact-person">
+    <h3><i class="fas fa-user-tie"></i> Contact Person</h3>
+    <p><strong>Name:</strong> P.C Harshakumar (Director)</p>
+    <p><strong>Phone:</strong> 9539447466</p>
+    <p><strong>Email:</strong> pcharshan@gmail.com</p>
+    <p><strong>Qualification:</strong> MBA Finance</p>
+    <p><strong>Experience:</strong> 13+ years in Auditing and Taxation</p>
+  </div>
+
+  <!-- Quick Contact Info Grid -->
+  <div class="contact-info-grid">
+    <div class="contact-info-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Visit Us</h3>
+      <p>Velorvattom, Cherthala<br>Alappuzha, Kerala</p>
+    </div>
+    <div class="contact-info-card">
+      <i class="fas fa-phone"></i>
+      <h3>Call Us</h3>
+      <p>9539447466</p>
+      <p style="font-size:0.9rem;">Mon-Sat, 9AM-6PM</p>
+    </div>
+    <div class="contact-info-card">
+      <i class="fas fa-envelope"></i>
+      <h3>Email Us</h3>
+      <p>pcharshan@gmail.com</p>
+      <p style="font-size:0.9rem;">24/7 Support</p>
+    </div>
+  </div>
+
+  <div class="map-note">
+    <i class="fas fa-map-marked-alt" style="font-size:2rem; color:#0f2a44;"></i>
+    <p style="margin:1rem 0 0 0;"><strong>Velorvattom, Cherthala</strong> — easily reachable via Alappuzha Bypass</p>
+    <p style="margin:0.5rem 0 0 0; font-size:0.9rem;">P.C HARSHAKUMAR & Co., Velorvattom, Cherthala, Alappuzha, Kerala</p>
+  </div>
+</section>
+
+<div class="bottom-footer">
+  <i class="fas fa-copyright"></i> 2025 P.C Harshakumar & Co. — Auditing · Tax · Consultancy
+  <span style="margin:0 10px">|</span> <i class="fas fa-phone"></i> 9539447466
+</div>
+
+</body>
+</html>

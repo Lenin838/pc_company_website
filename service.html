@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | P.C Harshakumar & Co</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional styles for service page */
+    .service-category {
+      margin: 3rem 0;
+      text-align: left;
+    }
+    
+    .category-title {
+      color: #0f2a44;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px solid #fbbf24;
+      padding-bottom: 0.5rem;
+      display: inline-block;
+    }
+    
+    .service-detail-card {
+      background: white;
+      border-radius: 20px;
+      padding: 1.8rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      border-left: 6px solid #fbbf24;
+    }
+    
+    .service-detail-card h4 {
+      color: #0f2a44;
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .service-detail-card p {
+      margin: 0;
+      color: #475569;
+    }
+    
+    .service-icon-large {
+      font-size: 2.5rem;
+      color: #fbbf24;
+      margin-right: 1rem;
+    }
+    
+    .service-grid-compact {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <i class="fas fa-calculator"></i> P.C Harshakumar & Co.
+  </div>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <ul class="nav-links">
+    <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+    <li><a href="service.html"><i class="fas fa-briefcase"></i> Services</a></li>
+    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+  </ul>
+</nav>
+
+<!-- COMPANY PHOTO - FULL WIDTH -->
+<div class="company-photo-section">
+    <img src="office.jpg" alt="P.C Harshakumar & Co. Office" class="company-photo">
+</div>
+
+<section class="page-banner" style="background: linear-gradient(135deg,#194a5e,#116466);">
+  <h1>Our Services</h1>
+</section>
+
+<section class="content">
+  <p style="text-align:center; max-width:900px; margin-bottom:3rem;">
+    P.C. HARSHAKUMAR & CO. provides a comprehensive range of financial services designed to meet the needs of businesses and individuals. Our services ensure compliance, transparency, and strategic financial management.
+  </p>
+
+  <!-- GST SERVICES -->
+  <div class="service-category">
+    <h2 class="category-title"><i class="fas fa-file-invoice" style="margin-right:10px;"></i> GST Services</h2>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-file-signature service-icon-large"></i> GST Registration</h4>
+      <p>GST registration by our institution is the process of enrolling under India's Goods and Services Tax (GST) system when the institution engages in taxable activities and crosses the prescribed turnover limit. After registration, the institution receives a Goods and Services Tax Identification Number (GSTIN), which enables it to collect GST from customers, file regular returns, and claim Input Tax Credit on eligible purchases. GST registration ensures legal compliance, transparency in financial transactions, and proper tax administration.</p>
+    </div>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-file-export service-icon-large"></i> GST Return Filing</h4>
+      <p>GST return filing by our institution is the process of regularly reporting its sales, purchases, tax collected, and tax paid to the government under the Goods and Services Tax (GST) system. Once registered, institutions are required to file periodic returns such as monthly or quarterly statements through the official GST portal. These returns include details of outward supplies, inward supplies, and the amount of GST payable or eligible for Input Tax Credit. Timely filing ensures legal compliance, avoids penalties, and maintains transparency.</p>
+    </div>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-calendar-alt service-icon-large"></i> GST Annual Return</h4>
+      <p>GST annual return filing is the process of submitting a consolidated statement of all GST transactions made during a financial year. Every GST-registered institution whose turnover exceeds the prescribed limit must file an annual return, typically in Form GSTR-9. This return summarizes details of total outward supplies, inward supplies, input tax credit claimed, taxes paid, and any additional liabilities. Filing the GST annual return promotes transparency, accuracy in tax reporting, and compliance with GST regulations.</p>
+    </div>
+  </div>
+
+  <!-- INCOME TAX SERVICES -->
+  <div class="service-category">
+    <h2 class="category-title"><i class="fas fa-coins" style="margin-right:10px;"></i> Income Tax Services</h2>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-file-invoice-dollar service-icon-large"></i> Income Tax Return (ITR)</h4>
+      <p>Income Tax Return (ITR) filing is the process of reporting total income, expenditures, and tax liability to the Income Tax Department for a particular financial year. Institutions such as schools, colleges, trusts, societies, and companies are required to file an income tax return if their income exceeds the basic exemption limit or if they are registered under specific provisions of the Income Tax Act. The return includes details of revenue received, expenses incurred, surplus or deficit, and taxes paid. Timely submission ensures compliance with tax laws, promotes financial transparency, and helps avoid penalties.</p>
+    </div>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-calculator service-icon-large"></i> Income Tax Filing</h4>
+      <p>Income tax filing refers to the process of submitting financial details to the Income Tax Department in accordance with the provisions of the Income Tax Act, 1961. Institutions are required to file an ITR if their income exceeds the prescribed exemption limit or if they wish to claim tax benefits and exemptions. The filing includes details of total income, sources of revenue, expenditures, deductions, surplus or deficit, and taxes paid. Proper income tax filing ensures legal compliance, transparency in financial management, and continued eligibility for government approvals or tax exemptions.</p>
+    </div>
+  </div>
+
+  <!-- ESI SERVICES -->
+  <div class="service-category">
+    <h2 class="category-title"><i class="fas fa-shield-alt" style="margin-right:10px;"></i> ESI Services</h2>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-clipboard-list service-icon-large"></i> ESI Registration</h4>
+      <p>ESI registration refers to the process of enrolling under the Employees' State Insurance (ESI) scheme to provide social security benefits to employees. Under the Employees' State Insurance Act, 1948, institutions that employ the prescribed minimum number of employees and meet wage eligibility criteria must register with the Employees' State Insurance Corporation (ESIC). After registration, the institution receives an ESI code number and must make regular contributions for eligible employees. The scheme provides benefits such as medical care, sickness benefits, maternity benefits, disability compensation, and dependent benefits.</p>
+    </div>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-file-invoice service-icon-large"></i> ESI Monthly Return Filing</h4>
+      <p>ESI monthly return filing refers to the process of regularly reporting employee details and contributions under the Employees' State Insurance (ESI) scheme. After registering under the Act, institutions must calculate and remit both employer and employee contributions within the prescribed time. These details are sent online through the ESIC portal. The return includes information about employee wages, contribution amounts, and any changes in employment status. Timely filing ensures compliance with legal requirements, avoids penalties, and guarantees that employees continue to receive medical and other social security benefits.</p>
+    </div>
+    
+    <div class="service-detail-card">
+      <h4><i class="fas fa-user-plus service-icon-large"></i> ESI Employee Registration</h4>
+      <p>ESI employees' registration is the process of enrolling eligible staff members under the ESI scheme after the institution itself has obtained ESI registration. Institutions must register employees whose wages fall within the prescribed limit through the online portal of ESIC. During registration, details such as employee name, date of birth, address, family information, and wage details are provided. This ensures that employees can avail the benefits of the ESI scheme including medical coverage and other social security provisions.</p>
+    </div>
+  </div>
+
+  <!-- ADDITIONAL SERVICES -->
+  <div class="service-category">
+    <h2 class="category-title"><i class="fas fa-briefcase" style="margin-right:10px;"></i> Additional Services</h2>
+    
+    <div class="service-grid-compact">
+      <div class="service-box" style="width:100%;">
+        <h3><i class="fas fa-calculator"></i> Accounting Services</h3>
+        <p>Professional accounting and financial advisory solutions including TDS return filing, tax planning, and compliance. We help streamline financial back-office operations.</p>
+      </div>
+      
+      <div class="service-box" style="width:100%;">
+        <h3><i class="fas fa-hand-holding-usd"></i> Audit & Assurance</h3>
+        <p>Statutory audit, internal audit and tax audit for firms. We examine financial records to ensure they present a "true and fair view" of the business.</p>
+      </div>
+      
+      <div class="service-box" style="width:100%;">
+        <h3><i class="fas fa-file-signature"></i> TDS & Compliance</h3>
+        <p>TDS return filing, tax planning and compliance. We assist clients with TDS filing and other statutory tax obligations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="bottom-footer">
+  <i class="fas fa-copyright"></i> 2025 P.C Harshakumar & Co. — Auditing · Tax · Consultancy
+  <span style="margin:0 10px">|</span> <i class="fas fa-phone"></i> 9539447466
+</div>
+
+</body>
+</html>
