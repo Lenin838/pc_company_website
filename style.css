@@ -1,4 +1,4 @@
-/* style.css - Main Stylesheet for P.C Harshakumar & Co. */
+/* style.css - Complete Stylesheet for P.C Harshakumar & Co. */
 
 /* Reset and base styles */
 * {
@@ -221,6 +221,156 @@ body {
   color: #475569;
 }
 
+/* Institute Profile Styles */
+.institute-profile {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  border: 1px solid #f1f5f9;
+  text-align: left;
+}
+
+.profile-item {
+  display: flex;
+  padding: 0.8rem 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.profile-item:last-child {
+  border-bottom: none;
+}
+
+.profile-label {
+  font-weight: 600;
+  color: #0f2a44;
+  width: 180px;
+  min-width: 180px;
+}
+
+.profile-value {
+  color: #334155;
+}
+
+/* Vision Mission Card */
+.vision-mission-card {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.highlight-text {
+  background: #e9f0f9;
+  padding: 1.5rem;
+  border-radius: 16px;
+  border-left: 6px solid #fbbf24;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* Objectives Grid */
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.objective-item {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.objective-item i {
+  color: #fbbf24;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.objective-item h4 {
+  color: #0f2a44;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+/* Organizational Hierarchy Styles - FIXED VERSION */
+.org-hierarchy {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.hierarchy-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.hierarchy-item:last-child {
+  border-bottom: none;
+}
+
+.hierarchy-icon {
+  width: 50px;
+  height: 50px;
+  min-width: 50px; /* Prevents shrinking */
+  background: #fbbf24;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  color: #0f2a44;
+  font-weight: bold;
+  font-size: 1.2rem; /* Fixed font size */
+}
+
+.hierarchy-info {
+  flex: 1; /* Takes remaining space */
+  min-width: 0; /* Prevents overflow */
+}
+
+.hierarchy-info h4 {
+  color: #0f2a44;
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hierarchy-info p {
+  color: #64748b;
+  margin: 0;
+  font-size: 0.95rem;
+  word-wrap: break-word; /* Ensures text wraps */
+}
+
+.badge {
+  background: #fbbf24;
+  color: #0f2a44;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap; /* Prevents badge from wrapping */
+}
+
 /* Contact card */
 .contact-card {
   background: white;
@@ -263,6 +413,59 @@ body {
   margin: 1.5rem 0;
 }
 
+/* Contact Info Grid */
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.contact-info-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  border: 1px solid #f1f5f9;
+}
+
+.contact-info-card i {
+  font-size: 2.5rem;
+  color: #fbbf24;
+  margin-bottom: 1rem;
+}
+
+.contact-info-card h3 {
+  color: #0f2a44;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info-card p {
+  color: #475569;
+  margin: 0;
+}
+
+/* Contact Person Section */
+.contact-person {
+  background: #0f2a44;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.contact-person h3 {
+  color: #fbbf24;
+  margin-bottom: 1rem;
+}
+
+.contact-person p {
+  color: rgba(255,255,255,0.9);
+  margin: 0.5rem 0;
+}
+
 /* Map note */
 .map-note {
   background: #e9f0f9;
@@ -272,6 +475,58 @@ body {
   margin: 2rem auto;
   text-align: center;
   border: 1px solid #d1d9e8;
+}
+
+/* Service Category Styles */
+.service-category {
+  margin: 3rem 0;
+  text-align: left;
+}
+
+.category-title {
+  color: #0f2a44;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #fbbf24;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.service-detail-card {
+  background: white;
+  border-radius: 20px;
+  padding: 1.8rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  border-left: 6px solid #fbbf24;
+  text-align: left;
+}
+
+.service-detail-card h4 {
+  color: #0f2a44;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-detail-card p {
+  margin: 0;
+  color: #475569;
+}
+
+.service-icon-large {
+  font-size: 2.5rem;
+  color: #fbbf24;
+  margin-right: 1rem;
+}
+
+.service-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
 
 /* Bottom footer */
@@ -358,6 +613,53 @@ ul li {
     width: 100%;
     max-width: 350px;
   }
+  
+  .profile-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .profile-label {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for hierarchy - FIXED */
+@media (max-width: 600px) {
+  .hierarchy-item {
+    flex-direction: row; /* Keep row direction */
+    align-items: flex-start;
+    padding: 1rem 0.5rem;
+  }
+  
+  .hierarchy-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px; /* Maintain size on mobile */
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .hierarchy-info h4 {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  
+  .badge {
+    white-space: normal; /* Allow badge to wrap on very small screens */
+    font-size: 0.75rem;
+    padding: 0.2rem 0.8rem;
+  }
+  
+  .hierarchy-info p {
+    font-size: 0.85rem;
+  }
+  
+  .org-hierarchy {
+    padding: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -384,6 +686,26 @@ ul li {
   .bottom-footer {
     font-size: 0.85rem;
     padding: 1rem;
+  }
+  
+  .hierarchy-icon {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    font-size: 0.9rem;
+    margin-right: 0.8rem;
+  }
+  
+  .hierarchy-item {
+    padding: 0.8rem 0;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+  }
+  
+  .service-detail-card h4 {
+    font-size: 1.2rem;
   }
 }
 
